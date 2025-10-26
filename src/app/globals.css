@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+@theme inline {
+    --color-*: initial;
+    --color-white: hsl(0, 0%, 100%);
+    --color-blue-900: hsl(230, 35%, 7%);
+    --color-blue-300: hsl(231, 77%, 90%);
+
+    --font-*: initial;
+    --font-primary: var(--font-barlow);
+    --font-secondary: var(--font-barlow-condensed);
+    --font-accent: var(--font-bellefair);
+}
+
+@layer base {
+    body {
+        @apply min-h-screen leading-none;
+    }
+
+    button {
+        @apply cursor-pointer;
+    }
+}
