@@ -10,6 +10,47 @@
     --font-primary: var(--font-barlow);
     --font-secondary: var(--font-barlow-condensed);
     --font-accent: var(--font-bellefair);
+
+    --text-*: initial;
+
+    --text-100: clamp(5rem, 1.1832rem + 16.285vw, 9rem);
+    --text-100--font-weight: 400;
+    --text-100--line-height: clamp(6.125rem, 2.1293rem + 17.0483vw, 10.3125rem);
+
+    --text-200: clamp(3.5rem, 1.1145rem + 10.1781vw, 6rem);
+    --text-200--font-weight: 400;
+    --text-200--line-height: clamp(4rem, 1.2567rem + 11.7048vw, 6.875rem);
+
+    --text-300: clamp(1.5rem, -0.4084rem + 8.1425vw, 3.5rem);
+    --text-300--font-weight: 400;
+    --text-300--line-height: clamp(1.75rem, -0.3969rem + 9.1603vw, 4rem);
+
+    --text-400: clamp(1.125rem, 0.2901rem + 3.5623vw, 2rem);
+    --text-400--font-weight: 400;
+    --text-400--line-height: clamp(1.3125rem, 0.3583rem + 4.0712vw, 2.3125rem);
+
+    --text-500: clamp(1.25rem, 0.7729rem + 2.0356vw, 1.75rem);
+    --text-500--font-weight: 400;
+    --text-500--line-height: clamp(1.5rem, 0.9036rem + 2.5445vw, 2.125rem);
+    --text-500--letter-spacing: 0.142em;
+
+    --text-600: clamp(1rem, 0.2844rem + 3.0534vw, 1.75rem);
+    --text-600--font-weight: 400;
+    --text-600--line-height: clamp(1.1875rem, 0.4122rem + 3.3079vw, 2rem);
+
+    --text-700: 0.875rem;
+    --text-700--font-weight: 400;
+    --text-700--line-height: 1.1875rem;
+    --text-700--letter-spacing: 0.125rem;
+
+    --text-800: clamp(0.875rem, 0.7557rem + 0.5089vw, 1rem);
+    --text-800--font-weight: 400;
+    --text-800--line-height: clamp(1.0625rem, 0.9432rem + 0.5089vw, 1.1875rem);
+    --text-800--letter-spacing: 0.125rem;
+
+    --text-900: clamp(0.9375rem, 0.7586rem + 0.7634vw, 1.125rem);
+    --text-900--font-weight: 400;
+    --text-900--line-hieght: clamp(1.6875rem, 1.3893rem + 1.2723vw, 2rem);
 }
 
 @layer base {
