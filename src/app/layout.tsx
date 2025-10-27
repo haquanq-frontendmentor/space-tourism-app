@@ -1,4 +1,5 @@
 import { Header } from "@/components/Header";
+import { cn } from "@/utils/cn";
 import type { Metadata } from "next";
 import { Barlow, Barlow_Condensed, Bellefair } from "next/font/google";
 import "./globals.css";
@@ -34,7 +35,7 @@ export default function RootLayout({
   const fonts = [barlowCondensed.variable, barlow.variable, bellefair.variable].join(" ");
   return (
     <html lang="en">
-      <body className={fonts}>
+      <body className={cn(fonts, "relative")}>
         <Header />
         <main>{children}</main>
       </body>
