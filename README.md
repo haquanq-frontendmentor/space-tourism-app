@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Frontend Mentor - Space Tourism App Solution
 
-## Getting Started
+This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+<p>
+  <a href="">
+    <img
+      alt="Solution post"
+      src="https://img.shields.io/badge/Frontendmentor-blue?label=Solution%20on"
+    /></a>
+  <a href="https://haquanq-frontendmentor.github.io/space-tourism-app/">
+    <img
+      alt="Live demo"
+      src="https://img.shields.io/badge/Demo-teal?label=Live"
+    /></a>
+  <a href="./LICENSE"
+    ><img
+      allt="MIT License"
+      src="https://img.shields.io/badge/MIT-blue?label=license"
+  /></a>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Table of Contents
+
+- [Project Overview](#sunrise-project-overview)
+- [Tech Stack and Approach](#stars-tech-stack-and-approach)
+- [Local Development](#leaves-local-development)
+- [Deployment](#maple_leaf-deployment)
+
+## :sunrise: Project Overview
+
+### Challenge Requirements
+
+- View the optimal layout for each of the website's pages depending on their device's screen size
+- See hover states for all interactive elements on the page
+- View each page and be able to toggle between the tabs to see new information
+
+### Status
+
+Accessibility
+
+- [x] Responsive accross different screen sizes
+- [x] Added custom indicator when interactive elements focused
+
+### Preview
+
+![](./docs/preview.jpg)
+
+## :stars: Tech Stack and Approach
+
+### Built with
+
+- **HTML5** – Semantic structure
+- **Next/React** – SEO focused, static sites generation
+- **TailwindCSS** – Utility-first CSS for fast development
+- **TypeScript** - Interactivity and application logic
+- **EmblaCarousel** - Simple carousel interactivity logic
+
+### Approach
+
+- Mobile-first workflow for better performance on smaller devices
+- Accessibility guided by [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/).
+
+## :leaves: Local Development
+
+### Prerequisites
+
+Install the following:
+
+- Git (latest version)
+- Node.js (latest LTS recommended)
+- pnpm (latest version)
+
+### Setup
+
+```
+git clone https://github.com/haquanq-frontendmentor/space-tourism-app.git
+cd space-tourism-app
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Start Development Server
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## :maple_leaf: Deployment
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deployed to Github Pages via Github Actions (manually triggered).
