@@ -1,3 +1,5 @@
 export const appConfigs = {
-    basePath: process.env.BASE_PATH,
+    basePath: process.env.NEXT_PUBLIC_BASE_PATH,
 };
+
+console.log(appConfigs);
