@@ -47,13 +47,15 @@ export default function Home() {
               </p>
             </div>
             <div className="flex items-center justify-center pt-[clamp(2.625rem,9.0983rem+-13.486vw,5.9375rem)] lg:p-0">
-              <Link
-                className="text-400 font-accent group relative flex aspect-square w-[clamp(9rem,1.3664rem+32.57vw,17rem)] items-center justify-center rounded-full bg-white uppercase"
-                href="/destination"
-              >
-                <span className="pointer-events-none absolute -inset-[clamp(3rem,0.6145rem+10.1781vw,5.5rem)] block rounded-full bg-white opacity-0 transition-opacity duration-300 group-hover:opacity-25"></span>
-                Explore
-              </Link>
+              <div className="relative">
+                <Link
+                  className="text-400 peer font-accent group relative flex aspect-square w-[clamp(9rem,1.3664rem+32.57vw,17rem)] items-center justify-center rounded-full bg-white uppercase focus-visible:outline-4 focus-visible:outline-offset-8 focus-visible:outline-white focus-visible:outline-dashed"
+                  href="/destination"
+                >
+                  Explore
+                </Link>
+                <span className="pointer-events-none absolute -inset-[clamp(3rem,0.6145rem+10.1781vw,5.5rem)] block rounded-full bg-white opacity-0 transition-opacity duration-300 peer-hover:opacity-25"></span>
+              </div>
             </div>
           </div>
         </section>
