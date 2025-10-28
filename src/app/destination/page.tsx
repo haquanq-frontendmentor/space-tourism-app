@@ -15,7 +15,7 @@ export default function Destination() {
           <Image className="hidden lg:block" src={DesktopBackgroundImage} alt="" priority />
         </div>
         <section className="relative z-20 pt-[clamp(1.5rem,0.0687rem+6.1069vw,3rem)] pb-[clamp(1.5rem,-7.5649rem+38.6768vw,11rem)]">
-          <h1 className="text-500 text-white uppercase">
+          <h1 className="text-500 font-secondary text-white uppercase">
             <span className="font-bold opacity-25">01</span>&nbsp;<span>Pick your destination</span>
           </h1>
           <DestinationTab />
