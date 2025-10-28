@@ -11,9 +11,9 @@ export default function Home() {
     <main className="flex grow flex-col">
       <Container className="flex flex-col">
         <div className="absolute inset-0 z-10 h-full *:h-full *:w-full *:object-cover">
-          <Image className="md:hidden" src={MobileBackgroundImage} alt="" />
-          <Image className="hidden md:block lg:hidden" src={TabletBackgroundImage} alt="" />
-          <Image className="hidden lg:block" src={DesktopBackgroundImage} alt="" />
+          <Image className="md:hidden" src={MobileBackgroundImage} alt="" priority />
+          <Image className="hidden md:block lg:hidden" src={TabletBackgroundImage} alt="" priority />
+          <Image className="hidden lg:block" src={DesktopBackgroundImage} alt="" priority />
         </div>
         <section className="relative z-20 flex h-full grow py-[clamp(1.5rem,-4.7023rem+26.4631vw,8rem)] lg:items-end">
           <div className="flex w-full flex-col lg:flex-row lg:justify-between">
