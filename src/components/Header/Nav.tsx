@@ -88,7 +88,7 @@ export const Nav = () => {
             {routes.map((v, index) => (
               <li className="flex items-center md:relative md:h-full" key={v.label + index}>
                 <Link
-                  className="peer"
+                  className="peer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                   href={v.href}
                   aria-selected={pathname === v.href}
                   {...(pathname === v.href && { "aria-current": "page" })}
