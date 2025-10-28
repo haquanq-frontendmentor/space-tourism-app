@@ -35,9 +35,9 @@ export default function RootLayout({
   const fonts = [barlowCondensed.variable, barlow.variable, bellefair.variable].join(" ");
   return (
     <html lang="en">
-      <body className={cn(fonts, "relative")}>
+      <body className={cn(fonts, "relative flex min-h-screen flex-col")}>
         <Header />
-        <main>{children}</main>
+        {children}
       </body>
     </html>
   );
