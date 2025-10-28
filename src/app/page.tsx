@@ -1,4 +1,5 @@
 import { Container } from "@/components/layouts/Container";
+import { appConfigs } from "@/constants/appConfigs";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,7 +10,7 @@ export default function Home() {
         <div className="absolute inset-0 z-10 h-full *:h-full *:w-full *:object-cover">
           <Image
             className="md:hidden"
-            src="/images/home/background-home-desktop.jpg"
+            src={appConfigs.basePath + "/images/home/background-home-desktop.jpg"}
             alt=""
             width={1440}
             height={900}
@@ -17,7 +18,7 @@ export default function Home() {
           />
           <Image
             className="hidden md:block lg:hidden"
-            src="/images/home/background-home-tablet.jpg"
+            src={appConfigs.basePath + "/images/home/background-home-tablet.jpg"}
             width={1536}
             height={2048}
             alt=""
@@ -25,7 +26,7 @@ export default function Home() {
           />
           <Image
             className="hidden lg:block"
-            src="/images/home/background-home-desktop.jpg"
+            src={appConfigs.basePath + "/images/home/background-home-desktop.jpg"}
             alt=""
             width={750}
             height={1624}
