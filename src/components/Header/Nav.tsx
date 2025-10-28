@@ -90,7 +90,6 @@ export const Nav = () => {
                 <Link
                   className="peer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                   href={v.href}
-                  aria-selected={pathname === v.href}
                   {...(pathname === v.href && { "aria-current": "page" })}
                 >
                   <span className="font-bold">{formatIndexNumber(index)}</span>&nbsp;
