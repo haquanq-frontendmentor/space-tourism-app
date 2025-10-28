@@ -1,6 +1,7 @@
 "use client";
 
 import { appConfigs } from "@/constants/appConfigs";
+import { cn } from "@/utils/cn";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -95,7 +96,12 @@ export const Nav = () => {
                   <span className="font-bold">{formatIndexNumber(index)}</span>&nbsp;
                   <span>{v.label}</span>
                 </Link>
-                <div className="absolute inset-x-0 bottom-0 hidden h-[0.1875rem] bg-white opacity-0 transition-opacity peer-hover:opacity-50 peer-aria-selected:opacity-100 md:block"></div>
+                <div
+                  className={cn(
+                    "absolute inset-x-0 bottom-0 hidden h-[0.1875rem] bg-white opacity-0 transition-opacity peer-hover:opacity-50 md:block",
+                    pathname === v.href && "opacity-100",
+                  )}
+                ></div>
               </li>
             ))}
           </ul>
