@@ -29,6 +29,17 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://haquanq-frontendmentor.github.io/space-tourism-app",
   },
+  openGraph: {
+    title: "Frontend Mentor | Space Tourism Website",
+    description:
+      "Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!",
+    url: "https://haquanq-frontendmentor.github.io/space-tourism-app",
+    locale: "en_US",
+  },
+  twitter: {
+    title: "Frontend Mentor | Space Tourism Website",
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({
