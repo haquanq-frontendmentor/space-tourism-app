@@ -26,6 +26,9 @@ const barlowCondensed = Barlow_Condensed({
 export const metadata: Metadata = {
   title: "Frontend Mentor | Space Tourism Website",
   icons: { icon: appConfigs.basePath + "/favicon-32x32.png" },
+  alternates: {
+    canonical: "https://haquanq-frontendmentor.github.io/space-tourism-app",
+  },
 };
 
 export default function RootLayout({
