@@ -50,7 +50,7 @@
 
     --text-900: clamp(0.9375rem, 0.7586rem + 0.7634vw, 1.125rem);
     --text-900--font-weight: 400;
-    --text-900--line-hieght: clamp(1.6875rem, 1.3893rem + 1.2723vw, 2rem);
+    --text-900--line-height: clamp(1.6875rem, 1.3893rem + 1.2723vw, 2rem);
 }
 
 @layer base {
