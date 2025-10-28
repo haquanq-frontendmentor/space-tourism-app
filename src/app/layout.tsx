@@ -1,4 +1,5 @@
 import { Header } from "@/components/Header";
+import { appConfigs } from "@/constants/appConfigs";
 import { cn } from "@/utils/cn";
 import type { Metadata } from "next";
 import { Barlow, Barlow_Condensed, Bellefair } from "next/font/google";
@@ -24,7 +25,7 @@ const barlowCondensed = Barlow_Condensed({
 
 export const metadata: Metadata = {
   title: "Frontend Mentor | Space Tourism Website",
-  icons: { icon: "/favicon-32x32.png" },
+  icons: { icon: appConfigs.basePath + "/favicon-32x32.png" },
 };
 
 export default function RootLayout({
