@@ -44,7 +44,7 @@ Accessibility
 
 ### Preview
 
-![](./docs/preview.jpg)
+![](./docs/preview.png)
 
 ## :stars: Tech Stack and Approach
 
