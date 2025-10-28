@@ -40,7 +40,7 @@ export default function Home() {
                 <span className="text-600 text-blue-300">So, you want to travel to</span>
                 <span className="text-100 text-white">space</span>
               </h1>
-              <p className="font-primary text-900 max-w-136 justify-self-center text-sm leading-6.75 text-blue-300">
+              <p className="font-primary text-900 max-w-136 justify-self-center text-sm leading-6.75 text-blue-300 lg:max-w-110">
                 Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover
                 kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world
                 experience!
