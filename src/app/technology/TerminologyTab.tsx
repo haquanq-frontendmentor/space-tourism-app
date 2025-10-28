@@ -42,12 +42,12 @@ export const TerminologyTab = () => {
       <h2 className="sr-only" id="tab-label">
         Terminologies
       </h2>
-      <div className="relative inset-x-1/2 mx-[-50vw] max-w-screen overflow-hidden pt-22 pb-8 *:relative *:w-screen *:max-w-screen lg:inset-0 lg:col-start-2 lg:m-0 lg:max-w-[250%] lg:overflow-visible lg:p-0 lg:*:w-auto">
+      <div className="] relative inset-x-1/2 mx-[-50vw] w-screen max-w-screen overflow-hidden pt-22 pb-8 lg:inset-0 lg:col-start-2 lg:m-0 lg:w-auto lg:overflow-visible lg:p-0 lg:*:w-auto">
         {technologies.map((v, index) => (
-          <>
+          <div className="w-full *:w-full lg:*:w-[120%] lg:*:max-w-[200%]" key={`teminology-images-${index}`}>
             <img className="lg:hidden" src={v.images.landscape} hidden={index !== selectedIndex} />
             <img className="hidden lg:block" src={v.images.portrait} hidden={index !== selectedIndex} />
-          </>
+          </div>
         ))}
       </div>
       <Tab
@@ -64,6 +64,7 @@ export const TerminologyTab = () => {
               )}
               index={index}
               aria-label={`Show terminology ${index + 1} of ${technologies.length}`}
+              key={`tab-button-${v.name}`}
             >
               {index + 1}
             </TabButton>
@@ -71,7 +72,7 @@ export const TerminologyTab = () => {
         </TabList>
         <div>
           {technologies.map((v, index) => (
-            <TabPanel index={index}>
+            <TabPanel index={index} key={`tab-panel-${v.name}`}>
               <p className="text-400 font-accent mb-4 text-white uppercase opacity-50">The terminology...</p>
               <h3 className="text-300 font-accent mb-4 text-white uppercase sm:mb-6">{v.name}</h3>
               <p className="text-900 font-primary text-blue-300">{v.description}</p>
