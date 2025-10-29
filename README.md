@@ -3,7 +3,7 @@
 This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 <p>
-  <a href="">
+  <a href="https://www.frontendmentor.io/solutions/static-site-generation-with-nextjs-mobile-first-responsive-Ala9Eyc1bh">
     <img
       alt="Solution post"
       src="https://img.shields.io/badge/Frontendmentor-blue?label=Solution%20on"
