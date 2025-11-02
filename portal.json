@@ -1,0 +1,15 @@
+{
+  "name": "Space Tourism Website",
+  "featured": false,
+  "colors:": {
+    "brand": "#0B0D19"
+  },
+  "images": {
+    "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/space-tourism-app/main/docs/preview.jpg"
+  },
+  "frontendmentor": {
+    "difficulty": "intermediate",
+    "challengeUrl": "https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3",
+    "solutionUrl": "https://www.frontendmentor.io/solutions/static-site-generation-with-nextjs-mobile-first-responsive-Ala9Eyc1bh"
+  }
+}
