@@ -20,6 +20,8 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
   /></a>
 </p>
 
+![](./docs/preview.png)
+
 ## Table of Contents
 
 - [Project Overview](#sunrise-project-overview)
@@ -41,10 +43,6 @@ Accessibility
 
 - [x] Responsive accross different screen sizes
 - [x] Added custom indicator when interactive elements focused
-
-### Preview
-
-![](./docs/preview.png)
 
 ## :stars: Tech Stack and Approach
 
@@ -87,4 +85,4 @@ pnpm dev
 
 ## :maple_leaf: Deployment
 
-Deployed to Github Pages via Github Actions (manually triggered).
+Deployed to Github Pages via Github Action.
