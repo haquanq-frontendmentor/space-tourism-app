@@ -1,7 +1,7 @@
 {
   "name": "Space Tourism Website",
   "featured": false,
-  "color": {
+  "colors": {
     "brand": "#0B0D19"
   },
   "images": {
